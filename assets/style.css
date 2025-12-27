@@ -1,7 +1,7 @@
 :root {
   /* ===== BRAND COLORS ===== */
-  --bg: #f2f4f3;                 /* sfondo principale (grigio caldo) */
-  --bg-soft: #ecefed;            /* sezioni alternate */
+  --bg: #fdfdfd;                 /* sfondo principale (grigio caldo) */
+  --bg-soft: #ffffff;            /* sezioni alternate */
 
   --card: #f9faf9;               /* card */
   --card-hover: #f1f3f2;
@@ -70,7 +70,7 @@ body {
 
 /* ===== LINKS ===== */
 a {
-  color: #5f8f7b;
+  color: #5f8173;
   text-decoration: none;
 }
 
