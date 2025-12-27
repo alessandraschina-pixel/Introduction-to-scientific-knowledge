@@ -1,14 +1,20 @@
-:root{
-  --bg: #505569;
-  --card: #12131a;
-  --text: #e9e9ef;
-  --muted: #b7b7c6;
-  --line: #242636;
-  --accent: #d9e9f0;
-  --accent2: #a59fb9;
+:root {
+  --bg: #4a4f63;              /* più freddo e sofisticato */
+  --card: #151726;            /* leggermente più chiaro del nero */
+  --card-hover: #1b1e32;
+
+  --text: #f1f2f7;            /* bianco morbido */
+  --muted: #aeb2c8;
+
+  --line: #2b2f4a;
+
+  --accent: #9ad7f5;          /* accent principale (fresco) */
+  --accent2: #c6bdf0;         /* secondario più elegante */
+
   --radius: 18px;
-  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --shadow: 0 12px 32px rgba(0,0,0,.45);
 }
+
 
 *{ box-sizing: border-box; }
 html,body{ margin:0; padding:0; }
