@@ -105,30 +105,7 @@ a:hover {
   }
 }
 
-:root {
-  /* BACKGROUND */
-  --bg: #f2f1ee;              /* avorio caldo, molto elegante */
-  --bg-alt: #ebe9e4;          /* variazione per sezioni */
 
-  /* CARD */
-  --card: #faf9f7;            /* non bianco puro */
-  --card-hover: #f3f2ef;
-
-  /* TESTO */
-  --text: #1e1f24;            /* nero morbido */
-  --muted: #6f7280;           /* grigio caldo leggibile */
-
-  /* LINEE */
-  --line: #dedbd4;            /* beige-grigio, zero stacco */
-
-  /* ACCENT */
-  --accent: #6b7cff;          /* blu premium */
-  --accent2: #a5afff;
-
-  /* SHAPE */
-  --radius: 20px;
-  --shadow: 0 20px 45px rgba(0,0,0,.08);
-}
 
 
 *{ box-sizing: border-box; }
