@@ -7,9 +7,9 @@
   --card-hover: #f1f3f2;
 
   --text: #1f2a26;               /* testo principale */
-  --muted: #6f7f78;              /* testo secondario */
+  --muted: #c0c5c3;              /* testo secondario */
 
-  --line: #dde3df;               /* separatori */
+  --line: #ffffff;               /* separatori */
 
   --accent: #8faea1;             /* salvia principale */
   --accent2: #b7cfc4;            /* salvia chiaro */
@@ -19,7 +19,7 @@
   --radius-sm: 12px;
 
   --shadow-sm: 0 6px 16px rgba(31,42,38,.08);
-  --shadow: 0 14px 36px rgba(31,42,38,.14);
+  --shadow: 0 14px 36px rgba(207, 205, 193, 0.14);
 }
 
 /* ===== BASE ===== */
