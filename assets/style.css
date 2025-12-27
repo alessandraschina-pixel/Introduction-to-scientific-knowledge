@@ -61,10 +61,10 @@ body {
     var(--accent),
     var(--accent2)
   );
-  color: #1b2a25;
+  color: #8d9e99;
   border-radius: var(--radius-sm);
   padding: 14px 20px;
-  box-shadow: 0 8px 22px rgba(143,174,161,.35);
+  box-shadow: 0 8px 22px rgba(169, 180, 175, 0.35);
   border: none;
 }
 
