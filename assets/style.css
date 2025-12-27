@@ -1,3 +1,109 @@
+:root {
+  /* ===== BRAND COLORS ===== */
+  --bg: #f2f4f3;                 /* sfondo principale (grigio caldo) */
+  --bg-soft: #ecefed;            /* sezioni alternate */
+
+  --card: #f9faf9;               /* card */
+  --card-hover: #f1f3f2;
+
+  --text: #1f2a26;               /* testo principale */
+  --muted: #6f7f78;              /* testo secondario */
+
+  --line: #dde3df;               /* separatori */
+
+  --accent: #8faea1;             /* salvia principale */
+  --accent2: #b7cfc4;            /* salvia chiaro */
+
+  /* ===== UI ===== */
+  --radius: 18px;
+  --radius-sm: 12px;
+
+  --shadow-sm: 0 6px 16px rgba(31,42,38,.08);
+  --shadow: 0 14px 36px rgba(31,42,38,.14);
+}
+
+/* ===== BASE ===== */
+body {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    var(--bg) 100%
+  );
+  color: var(--text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,.6),
+    rgba(255,255,255,0)
+  ), var(--card);
+
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: all .25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  background: var(--card-hover);
+}
+
+/* ===== BUTTONS ===== */
+.button-primary {
+  background: linear-gradient(
+    135deg,
+    var(--accent),
+    var(--accent2)
+  );
+  color: #1b2a25;
+  border-radius: var(--radius-sm);
+  padding: 14px 20px;
+  box-shadow: 0 8px 22px rgba(143,174,161,.35);
+  border: none;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #5f8f7b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* ===== DIVIDERS ===== */
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--line),
+    transparent
+  );
+}
+
+/* ===== MOBILE OPTIMIZATION ===== */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  .card {
+    border-radius: 16px;
+  }
+
+  .button-primary {
+    width: 100%;
+    padding: 16px;
+  }
+}
 
 :root {
   /* BACKGROUND */
