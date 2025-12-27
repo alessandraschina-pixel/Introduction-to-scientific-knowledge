@@ -1,19 +1,27 @@
 
 :root {
-  --bg: #f5f6fa;              /* sfondo principale */
-  --card: #ffffff;            /* card pulite */
-  --card-hover: #f1f3f9;
+  /* BACKGROUND */
+  --bg: #f2f1ee;              /* avorio caldo, molto elegante */
+  --bg-alt: #ebe9e4;          /* variazione per sezioni */
 
-  --text: #1f2433;            /* testo principale */
-  --muted: #6b7187;           /* testo secondario */
+  /* CARD */
+  --card: #faf9f7;            /* non bianco puro */
+  --card-hover: #f3f2ef;
 
-  --line: #e3e6ef;            /* separatori soft */
+  /* TESTO */
+  --text: #1e1f24;            /* nero morbido */
+  --muted: #6f7280;           /* grigio caldo leggibile */
 
-  --accent: #4f7cff;          /* blu elegante */
-  --accent2: #7aa2ff;
+  /* LINEE */
+  --line: #dedbd4;            /* beige-grigio, zero stacco */
 
-  --radius: 18px;
-  --shadow: 0 12px 28px rgba(25,30,80,.12);
+  /* ACCENT */
+  --accent: #6b7cff;          /* blu premium */
+  --accent2: #a5afff;
+
+  /* SHAPE */
+  --radius: 20px;
+  --shadow: 0 20px 45px rgba(0,0,0,.08);
 }
 
 
