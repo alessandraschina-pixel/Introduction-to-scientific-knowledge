@@ -96,14 +96,14 @@ body{
 .title{ font-weight: 700; }
 .subtitle{ color: var(--muted); font-size: .92rem; }
 
-/* ===== aside ===== */
-.aside{
+/* ===== nav ===== */
+.nav{
   display:flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.aside a{
+.nav a{
   text-decoration:none;
   color: var(--muted);
   padding: 8px 10px;
@@ -111,13 +111,13 @@ body{
   border: 1px solid transparent;
 }
 
-.aside a:hover{
+.nav a:hover{
   color: var(--text);
   background: #f3f4f6;
   border-color: var(--line);
 }
 
-.aside a.active{
+.nav a.active{
   color: var(--accent);
   background: #e7f3ff;
   border-color: #b6d8ff;
