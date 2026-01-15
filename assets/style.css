@@ -1,5 +1,6 @@
 /* =========================================================
    GITHUB-LIKE LIGHT THEME — FULL style.css
+   (con menu laterale / sidebar)
    ========================================================= */
 
 /* ===== RESET ===== */
@@ -57,7 +58,7 @@ body{
   z-index: 999;
 }
 
-/* ===== HEADER ===== */
+/* ===== HEADER (solo per layout "vecchio" in alto) ===== */
 .site-header{
   position: sticky;
   top: 0;
@@ -75,6 +76,7 @@ body{
   gap: 16px;
 }
 
+/* ===== BRAND ===== */
 .brand{
   display:flex;
   align-items:center;
@@ -333,18 +335,19 @@ figcaption{
   gap: 12px;
 }
 
-/* ===== RESPONSIVE ===== */
+/* ===== RESPONSIVE (generale) ===== */
 @media (max-width: 820px){
   .card-grid{ grid-template-columns: 1fr; }
-  .site-header .container{
-    align-items:flex-start;
-    flex-direction:column;
-  }
   .split{ grid-template-columns: 1fr; }
 }
+
 /* =========================================================
    SIDEBAR LAYOUT (menu laterale)
-   Incolla questo blocco in fondo a style.css
+   Usa questo insieme alla struttura HTML:
+   <div class="layout">
+     <aside class="sidebar"><nav class="nav">...</nav></aside>
+     <main class="content"><div class="container">...</div></main>
+   </div>
    ========================================================= */
 
 .layout{
@@ -383,14 +386,13 @@ figcaption{
   flex: 1;
 }
 
-/* Mantieni la tua larghezza "container" e aggiungi respiro */
+/* Container centrato dentro il contenuto */
 .content .container{
   width: min(980px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 0 0;
 }
 
-/* Non serve più l'header in alto quando usi la sidebar */
+/* Se usi la sidebar, l'header in alto non serve */
 .site-header{
   display: none;
 }
@@ -399,6 +401,8 @@ figcaption{
 .site-footer{
   margin-top: 0;
 }
+
+/* ===== RESPONSIVE SIDEBAR (mobile) ===== */
 @media (max-width: 820px){
   .layout{
     flex-direction: column;
@@ -423,3 +427,4 @@ figcaption{
     width: auto;
   }
 }
+
